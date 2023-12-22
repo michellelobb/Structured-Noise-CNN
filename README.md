@@ -32,7 +32,7 @@ The notebooks each correspond to one of the three tests performed on the two dat
 dictated by the interpolation alpha factor. An $\alpha$ value of 0 means that the base image would remain unchanged, and an $\alpha$ value of 1 means only the pattern from the noise generator would be returned. After completing the noise generation, I split the
 training data into five groups, with noise added to certain percentages - 0%, 25%, 50%, 75%, and 100% - of the observations. I then built a ConvNet trained on the base data to handle the classification task, and used accuracy as the performance metric.
 
-The RGB testing showed an average accuracy increase of 3.93% for $\alpha$ = 0.1, 8.58% for $\alpha$ = 0.25, and no change for $\alpha$ = 0.5. The grayscale testing showed no improvement, due to TV regularization mathematically not handling sharp edges well.
+The RGB testing showed an average accuracy increase of 2.95% for $\alpha$ = 0.1, 10.81% for $\alpha$ = 0.25, and 1.05% for $\alpha$ = 0.5. The grayscale testing showed no improvement, due to TV regularization mathematically not handling sharp edges well.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
